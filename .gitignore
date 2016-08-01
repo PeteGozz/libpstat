@@ -1,28 +1,22 @@
-# Compiled Object files
-*.slo
-*.lo
+*~
+*.orig
+*.backup
+#.bak
+*.pyc
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
 *.so
-*.dylib
-*.dll
+*.so.*
+*.swp
+*.kate-swp
+*.patch
+*.diff
 
-# Fortran module files
-*.mod
+**/build
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.log
+*.notes
+*.petes
+*.tux
+*.mingus
+*.hazza
+.gitignore
