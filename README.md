@@ -2,6 +2,7 @@ libpstat: OS-agnostic process stat
 ==================================
 
 libpstat is a small library for getting information on running processes in an OS-agnostic way.
+
 The source is structured to make it easy to add support for additional operating systems.
 Currently, Linux is the only supported OS.
 
@@ -25,22 +26,39 @@ Installing
 ----------
 
 To install to default locations:
+```
+    $ make clean
+    $ make
+    $ sudo make install
+```
+This relinker run may also be required
+and is unlikely to hurt.
 
-make clean
-make
-sudo make install
+```
+    $ sudo ldconfig 
+```
 
-# this relinker run may also be required
-# and is unlikely to hurt
+see the _INSTALL_ file for more and advanced options.
 
-sudo ldconfig 
+Testing the install
+-------------------
 
-see the Install file for more and advanced options.
 
-Testing
--------
+```
+    $ which pstat
+```
+Should point to you desired install location.
 
-TODO
+```
+    /usr/local/bin/pstat
+    $ pstat -h 
+	Usage: pstat PID [PID...]
+	
+```
+
+
+
+TO-DO
 
 
 
