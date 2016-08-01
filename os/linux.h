@@ -20,8 +20,8 @@
 */
 #ifndef _PSTAT_OS_LINUX_H_
 #define _PSTAT_OS_LINUX_H_
-
-#define _BSD_SOURCE
+/*#define _BSD_SOURCE*/
+#define _DEFAULT_SOURCE 
 
 #include "common.h"
 #include <unistd.h>
