@@ -18,20 +18,21 @@ Building
 --------
 
 To build:
-
-make clean
-make
+```
+    $ make clean
+    $ make
+```
 
 Installing
 ----------
 
-To install to default locations:
+To install to *default* locations:
 ```
     $ make clean
     $ make
     $ sudo make install
 ```
-This relinker run may also be required
+This (re)linker run may also be required
 and is unlikely to hurt.
 
 ```
@@ -42,19 +43,19 @@ see the _INSTALL_ file for more and advanced options.
 
 Testing the install
 -------------------
-
+These are some basic tests of your install.
 
 ```
     $ which pstat
 ```
-Should point to you desired install location.
+Should point to _your_ desired install location.
 
 ```
     /usr/local/bin/pstat
     $ pstat -h 
 	Usage: pstat PID [PID...]
-	
 ```
+
 
 
 
